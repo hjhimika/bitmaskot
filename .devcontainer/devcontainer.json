@@ -1,0 +1,37 @@
+{
+    "name": "bitmaskot",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "[javascript]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.formatOnSave": true
+                },
+                "[java]": {
+                    "editor.defaultFormatter": "redhat.java",
+                    "editor.formatOnSave": true
+                }
+            },
+            // extensions for react js and spring boot
+            "extensions": [
+				"esbenp.prettier-vscode",
+				"redhat.java",
+				"redhat.vscode-yaml",
+				"vscjava.vscode-java-debug",
+				"vscjava.vscode-java-dependency",
+				"vscjava.vscode-java-pack",
+				"vscjava.vscode-java-test",
+				"vscjava.vscode-maven",
+				"vscjava.vscode-spring-boot-dashboard",
+				"vscjava.vscode-spring-initializr",
+				"rangav.vscode-thunder-client",
+				"MS-vsliveshare.vsliveshare"
+			]
+        }
+    }
+}
